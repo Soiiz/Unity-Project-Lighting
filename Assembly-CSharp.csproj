@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}</ProjectGuid>
+    <ProjectGuid>{5CDBE9D3-7BDC-C6C5-F278-56DFA2499339}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -88,6 +88,7 @@
     <Compile Include="Assets\Customizable_Furnture\Source\Scripts\PlayVideo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\light_switch.uxml" />
     <None Include="Assets\Customizable_Furnture\Readme\Readme.txt" />
     <None Include="Assets\camera_button.uxml" />
     <None Include="Assets\Brick Project Studio\Apartment Kit\Scenes\Message For You Please Read Me.txt" />

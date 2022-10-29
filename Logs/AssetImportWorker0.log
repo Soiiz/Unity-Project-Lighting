@@ -15,11 +15,11 @@ E:/Unity/Project/Unity-Project-Lighting
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63364
+57959
 Successfully changed project path to: E:/Unity/Project/Unity-Project-Lighting
 E:/Unity/Project/Unity-Project-Lighting
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 111.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 92.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,45 +35,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002636 seconds.
+Registered in 0.002918 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 114.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 103.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.619 seconds
+- Completed reload, in  1.482 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1619ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (1482ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (602ms)
+		EndReloadAssembly (515ms)
 			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (190ms)
+			SetupTypeCache (154ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (283ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (228ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
-				BeforeProcessingInitializeOnLoad (25ms)
-				ProcessInitializeOnLoadAttributes (94ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004628 seconds.
+Registered in 0.004483 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Error: Could not load signature of Unity.UI.Builder.BuilderTextShadow:.ctor due to: Could not resolve type with token 010000e9 (from typeref, class/assembly UnityEngine.UIElements.StyleTextShadow, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.StyleTextShadow member:(null) signature:<none>
@@ -107,7 +107,7 @@ UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
 
 Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll, this assembly can cause crashes in the runtime
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 108.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 154.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
 ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
@@ -129,45 +129,45 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
 ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
 Mono: successfully reloaded assembly
-- Completed reload, in  1.822 seconds
+- Completed reload, in  1.806 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1823ms)
-		BeginReloadAssembly (258ms)
+	ReloadAssembly (1808ms)
+		BeginReloadAssembly (191ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1461ms)
-			LoadAssemblies (249ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1547ms)
+			LoadAssemblies (143ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (480ms)
+			SetupTypeCache (582ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (466ms)
+			RebuildScriptCaches (127ms)
+			SetupLoadedEditorAssemblies (505ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (229ms)
+				RefreshPlugins (155ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (217ms)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3405 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 157.2 MB.
-System memory in use after: 157.4 MB.
+System memory in use before: 157.4 MB.
+System memory in use after: 157.6 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3856.
-Total: 3.934200 ms (FindLiveObjects: 0.408600 ms CreateObjectMapping: 0.248100 ms MarkObjects: 3.163200 ms  DeleteObjects: 0.113000 ms)
+Total: 3.394900 ms (FindLiveObjects: 0.328300 ms CreateObjectMapping: 0.170200 ms MarkObjects: 2.786000 ms  DeleteObjects: 0.109200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -185,1304 +185,463 @@ Received Import Request.
   path: Assets/camera_button.uxml
   artifactKey: Guid(690edf016ad6d6b47a5856ea38957bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/camera_button.uxml using Guid(690edf016ad6d6b47a5856ea38957bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff7406b1690 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
+0x00007ff6867266b2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6866f1cd2 (Unity) ResolveArtifactV2
+0x00007ff686711690 (Unity) ImportToObjects
+0x00007ff686710a98 (Unity) ImportAsset
+0x00007ff6866727f8 (Unity) AssetImportWorker::Import
+0x00007ff6866c5b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff68676a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff68676c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff68676fb4e (Unity) asio::io_service::run
+0x00007ff6866f29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6866f2a40 (Unity) RunAssetImporterV2
+0x00007ff685bb6616 (Unity) Application::InitializeProject
+0x00007ff686561b22 (Unity) WinMain
+0x00007ff6883b92b6 (Unity) __scrt_common_main_seh
+0x00007ff8279e7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8285026a1 (ntdll) RtlUserThreadStart
 
 Requesting import of Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000), Assets/camera_button.uxml from editor
 Resuming Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000) -> e399e1dbfc48e7c1a4df1efd7ed35615 
 Assertion failed on expression: 'state.state == kUpToDate'
 Assertion failed on expression: 'state.artifactID == result'
 Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740688a91 (Unity) ProduceArtifactV2
-0x00007ff7405d77be (Unity) AssetDatabase::ProduceArtifact
-0x00007ff7405bc968 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
+0x00007ff6867266b2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6866f1cd2 (Unity) ResolveArtifactV2
+0x00007ff6866e8a91 (Unity) ProduceArtifactV2
+0x00007ff6866377be (Unity) AssetDatabase::ProduceArtifact
+0x00007ff68661c968 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff686711a59 (Unity) ImportToObjects
+0x00007ff686710a98 (Unity) ImportAsset
+0x00007ff6866727f8 (Unity) AssetImportWorker::Import
+0x00007ff6866c5b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff68676a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff68676c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff68676fb4e (Unity) asio::io_service::run
+0x00007ff6866f29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6866f2a40 (Unity) RunAssetImporterV2
+0x00007ff685bb6616 (Unity) Application::InitializeProject
+0x00007ff686561b22 (Unity) WinMain
+0x00007ff6883b92b6 (Unity) __scrt_common_main_seh
+0x00007ff8279e7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8285026a1 (ntdll) RtlUserThreadStart
 
 Requesting import of Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000), Assets/camera_button.uxml from editor
 Resuming Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000) -> e399e1dbfc48e7c1a4df1efd7ed35615 
 Assertion failed on expression: 'state.state == kUpToDate'
 Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: '2e7960bed4327c30a7bd1b7d0c4c7d99') in 4.750753 seconds 
-  Import took 4.776320 seconds .
+ -> (artifact id: '2e7960bed4327c30a7bd1b7d0c4c7d99') in 2.435589 seconds 
+  Import took 2.441978 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6742.585751 seconds.
-  path: Assets/AK STUDIO ART/Bed
-  artifactKey: Guid(69c2336c7761f574fb9ce713b97b8e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AK STUDIO ART/Bed using Guid(69c2336c7761f574fb9ce713b97b8e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b67429cba95f7d4c244f4d76522cd4e') in 0.008095 seconds 
-  Import took 0.128037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.805944 seconds.
-  path: Assets/AK STUDIO ART/Bed/Environment
-  artifactKey: Guid(213c975c57d1aca498bb394e9a175b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AK STUDIO ART/Bed/Environment using Guid(213c975c57d1aca498bb394e9a175b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8944f1a48a9bd6f3dd688a0eb78319c') in 0.013842 seconds 
-  Import took 0.039037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.768238 seconds.
-  path: Assets/AK STUDIO ART/Bed/Models
-  artifactKey: Guid(d8ab1bfdd7f6c2d479a088b62e86b345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AK STUDIO ART/Bed/Models using Guid(d8ab1bfdd7f6c2d479a088b62e86b345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ae01d0ef5847df1967497a70094d44') in 0.009204 seconds 
-  Import took 0.038488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.515432 seconds.
-  path: Assets/AK STUDIO ART/Bed/Models/Mesh
-  artifactKey: Guid(d6311bb3bb91f4843b122b73a62d14c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AK STUDIO ART/Bed/Models/Mesh using Guid(d6311bb3bb91f4843b122b73a62d14c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b90dea93385701338466ba453c83e1') in 0.006100 seconds 
-  Import took 0.024032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.417153 seconds.
-  path: Assets/AK STUDIO ART/Bed/Models/Materials
-  artifactKey: Guid(56cc0925b0b8d2848a4dee5ae3dd6ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AK STUDIO ART/Bed/Models/Materials using Guid(56cc0925b0b8d2848a4dee5ae3dd6ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a8e33886fc3af3f933c7d5cc275daf') in 0.006079 seconds 
-  Import took 0.014129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.538773 seconds.
-  path: Assets/camera_button.uxml
-  artifactKey: Guid(690edf016ad6d6b47a5856ea38957bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/camera_button.uxml using Guid(690edf016ad6d6b47a5856ea38957bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff7406b1690 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000), Assets/camera_button.uxml from editor
-Resuming Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000) -> e399e1dbfc48e7c1a4df1efd7ed35615 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
-Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740688a91 (Unity) ProduceArtifactV2
-0x00007ff7405d77be (Unity) AssetDatabase::ProduceArtifact
-0x00007ff7405bc968 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000), Assets/camera_button.uxml from editor
-Resuming Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000) -> e399e1dbfc48e7c1a4df1efd7ed35615 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: '2e7960bed4327c30a7bd1b7d0c4c7d99') in 0.027688 seconds 
-  Import took 0.033599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.739026 seconds.
-  path: Assets/Assets_Beds/_previews/large.jpg
-  artifactKey: Guid(cdd7fb978877d2343b0d285084e33243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Beds/_previews/large.jpg using Guid(cdd7fb978877d2343b0d285084e33243) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff7406b1690 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(cdd7fb978877d2343b0d285084e33243) Importer(-1,00000000000000000000000000000000), Assets/Assets_Beds/_previews/large.jpg from editor
-Resuming Guid(cdd7fb978877d2343b0d285084e33243) Importer(-1,00000000000000000000000000000000) -> ccd08f828910100fd61e46badc1d74cf 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
-Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740688a91 (Unity) ProduceArtifactV2
-0x00007ff7405d77be (Unity) AssetDatabase::ProduceArtifact
-0x00007ff7405bc968 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(cdd7fb978877d2343b0d285084e33243) Importer(-1,00000000000000000000000000000000), Assets/Assets_Beds/_previews/large.jpg from editor
-Resuming Guid(cdd7fb978877d2343b0d285084e33243) Importer(-1,00000000000000000000000000000000) -> ccd08f828910100fd61e46badc1d74cf 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: 'a6b6221e18e251a58d270034fe09fb1d') in 0.084289 seconds 
-  Import took 0.102606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Assets_Beds/_previews/small.jpg
-  artifactKey: Guid(79600345ad774c64fbc76de8510a91ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Beds/_previews/small.jpg using Guid(79600345ad774c64fbc76de8510a91ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff7406b1690 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(79600345ad774c64fbc76de8510a91ee) Importer(-1,00000000000000000000000000000000), Assets/Assets_Beds/_previews/small.jpg from editor
-Resuming Guid(79600345ad774c64fbc76de8510a91ee) Importer(-1,00000000000000000000000000000000) -> 27b1dd5a697367721cd27567aa132041 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
-Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740688a91 (Unity) ProduceArtifactV2
-0x00007ff7405d77be (Unity) AssetDatabase::ProduceArtifact
-0x00007ff7405bc968 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(79600345ad774c64fbc76de8510a91ee) Importer(-1,00000000000000000000000000000000), Assets/Assets_Beds/_previews/small.jpg from editor
-Resuming Guid(79600345ad774c64fbc76de8510a91ee) Importer(-1,00000000000000000000000000000000) -> 27b1dd5a697367721cd27567aa132041 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: '5da5851bc3ee5cda7187682dcefb97d3') in 0.022115 seconds 
-  Import took 0.046314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Assets_Beds/_previews/medium.jpg
-  artifactKey: Guid(e3f5ba789faed3548b896e6b5cd0d84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Beds/_previews/medium.jpg using Guid(e3f5ba789faed3548b896e6b5cd0d84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff7406b1690 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(e3f5ba789faed3548b896e6b5cd0d84e) Importer(-1,00000000000000000000000000000000), Assets/Assets_Beds/_previews/medium.jpg from editor
-Resuming Guid(e3f5ba789faed3548b896e6b5cd0d84e) Importer(-1,00000000000000000000000000000000) -> 6b6b51d1ff858c9cadc01ccf3c9db86a 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
-Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740688a91 (Unity) ProduceArtifactV2
-0x00007ff7405d77be (Unity) AssetDatabase::ProduceArtifact
-0x00007ff7405bc968 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(e3f5ba789faed3548b896e6b5cd0d84e) Importer(-1,00000000000000000000000000000000), Assets/Assets_Beds/_previews/medium.jpg from editor
-Resuming Guid(e3f5ba789faed3548b896e6b5cd0d84e) Importer(-1,00000000000000000000000000000000) -> 6b6b51d1ff858c9cadc01ccf3c9db86a 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: 'd9a31be2cffd0c2318ccb1e94e50cde9') in 0.010119 seconds 
-  Import took 0.023387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.656471 seconds.
-  path: Assets/camera_button.uxml
-  artifactKey: Guid(690edf016ad6d6b47a5856ea38957bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/camera_button.uxml using Guid(690edf016ad6d6b47a5856ea38957bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff7406b1690 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000), Assets/camera_button.uxml from editor
-Resuming Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000) -> e399e1dbfc48e7c1a4df1efd7ed35615 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
-Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740688a91 (Unity) ProduceArtifactV2
-0x00007ff7405d77be (Unity) AssetDatabase::ProduceArtifact
-0x00007ff7405bc968 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000), Assets/camera_button.uxml from editor
-Resuming Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000) -> e399e1dbfc48e7c1a4df1efd7ed35615 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: '2e7960bed4327c30a7bd1b7d0c4c7d99') in 0.010510 seconds 
-  Import took 0.018166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.735425 seconds.
-  path: Assets/GrassFlowers/Post-Processing For GrassFlowers.asset
-  artifactKey: Guid(150fbd13cfcddb34ebc82b228a769165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GrassFlowers/Post-Processing For GrassFlowers.asset using Guid(150fbd13cfcddb34ebc82b228a769165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1b98cd1b18239168890fa06818dc04') in 0.033870 seconds 
-  Import took 0.052368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.250097 seconds.
-  path: Assets/Materials/Skybox_Mat.mat
-  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e587b2d9f39b4a8da249a6a8f56a44') in 0.483812 seconds 
-  Import took 0.500046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.479027 seconds.
-  path: Assets/Presets/AudioCompressedInMemory.preset
-  artifactKey: Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/AudioCompressedInMemory.preset using Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70939c7466a0a575c20e055aeedbc52e') in 0.023490 seconds 
-  Import took 0.028684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Presets/AudioStreaming.preset
-  artifactKey: Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/AudioStreaming.preset using Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd64b4b8f6783da8d1e546ffa643e31') in 0.010839 seconds 
-  Import took 0.015939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Presets/NormalTexture.preset
-  artifactKey: Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/NormalTexture.preset using Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2180124ffec99f6a58fa05f7255d1536') in 0.028531 seconds 
-  Import took 0.046159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Presets/UtilityTexture.preset
-  artifactKey: Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/UtilityTexture.preset using Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ea12d61e319528c50666fe0b61b6e2') in 0.012232 seconds 
-  Import took 0.017158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.226938 seconds.
-  path: Assets/Realistic_Bed/Bed/bed1.fbx
-  artifactKey: Guid(605c806a9eb55da48bd5426a1633f9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Realistic_Bed/Bed/bed1.fbx using Guid(605c806a9eb55da48bd5426a1633f9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740657cbd (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
-0x00007ff73eedbd44 (Unity) PersistentManager::GetStreamNameSpaceInternal
-0x00007ff73eedb285 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
-0x00007ff73eee089e (Unity) PersistentManager::ReadAndActivateObjectThreaded
-0x00007ff73eee0fb9 (Unity) PersistentManager::ReadObjectThreaded
-0x00007ff73eee0d6a (Unity) PersistentManager::ReadObject
-0x00007ff73e8352ed (Unity) UnityPropertySheet::AssignDefinedPropertiesTo
-0x00007ff73e886c6e (Unity) Material::BuildProperties
-0x00007ff73e884a4f (Unity) Material::AcquireSharedMaterialData
-0x00007ff73dfdb3cc (Unity) BaseRenderer::FlattenSharedMaterialData<0>
-0x00007ff73e4d2ce8 (Unity) PrepareMeshRenderNodes<0>
-0x00007ff73e06cd5a (Unity) ExtractSceneRenderNodeQueue
-0x00007ff73e0c79e4 (Unity) CullResults::GetOrCreateSharedRendererScene
-0x00007ff73e5af847 (Unity) CullScriptable
-0x00007ff73f010ca3 (Unity) ScriptableRenderContext_CUSTOM_Internal_Cull_Injected
-0x000001e23e433643 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull_Injected (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext&,intptr)
-0x000001e23e433593 (Mono JIT Code) UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
-0x000001e23e4334eb (Mono JIT Code) UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
-0x000001e23e43064b (Mono JIT Code) [UniversalRenderPipeline.cs:377] UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) 
-0x000001e23e42acdb (Mono JIT Code) [UniversalRenderPipeline.cs:301] UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) 
-0x000001e23e09734b (Mono JIT Code) [UniversalRenderPipeline.cs:257] UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) 
-0x000001e23e096819 (Mono JIT Code) UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
-0x000001e23de2d1cb (Mono JIT Code) UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-0x000001e23de2d390 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object_intptr_object_AtomicSafetyHandle (object,intptr,intptr,intptr)
-0x00007ffd0bb4e660 (mono-2.0-bdwgc) [mini-runtime.c:2827] mono_jit_runtime_invoke 
-0x00007ffd0bad2ae2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
-0x00007ffd0badbb3f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
-0x00007ff73ee4f434 (Unity) scripting_method_invoke
-0x00007ff73ee47935 (Unity) ScriptingInvocation::Invoke
-0x00007ff73e5958df (Unity) ScriptableRenderContext::ExtractAndExecuteRenderPipeline
-0x00007ff73e097916 (Unity) Camera::CustomRenderWithPipeline
-0x00007ff73e0adfe6 (Unity) Camera::StandaloneCustomRender
-0x00007ff73e0ae238 (Unity) Camera::StandaloneRender
-0x00007ff73e0a5356 (Unity) CameraScripting::Render
-0x00007ff73f02b284 (Unity) Camera_CUSTOM_Render
-0x000001e23de2cf00 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render (UnityEngine.Camera)
-0x000001e23de2c5d3 (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
-0x000001e240583f23 (Mono JIT Code) UnityEditor.GameObjectInspector:DoRenderPreview ()
-0x000001e23f41f1c3 (Mono JIT Code) UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-0x000001e2111ede1a (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-0x000001e2111edf28 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
-0x00007ffd0bb4e660 (mono-2.0-bdwgc) [mini-runtime.c:2827] mono_jit_runtime_invoke 
-0x00007ffd0bad2ae2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
-0x00007ffd0badbb3f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
-0x00007ff73ee4f434 (Unity) scripting_method_invoke
-0x00007ff73ee47935 (Unity) ScriptingInvocation::Invoke
-0x00007ff7405be060 (Unity) MonoCreateAssetPreview
-0x00007ff7405c261e (Unity) WriteAssetPreviewToFile
-0x00007ff7405c2d8c (Unity) WritePreviews
-0x00007ff7405bca8e (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(f3ae087c4fd036e40a35ba6bf9b828a7) Importer(-1,00000000000000000000000000000000), Assets/Realistic_Bed/Bed/Textures/bed1_bed_mat_AlbedoTransparency.png from editor
-Resuming Guid(f3ae087c4fd036e40a35ba6bf9b828a7) Importer(-1,00000000000000000000000000000000) -> 4c15f5644c48ec4e076aa964e3bbaaba 
-Assertion failed on expression: 'state.state == kUpToDate'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
-UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:376)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:300)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:255)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.GameObjectInspector:DoRenderPreview ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 58]
-
-Assertion failed on expression: 'state.artifactID == result'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
-UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:376)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:300)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:255)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.GameObjectInspector:DoRenderPreview ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 59]
-
-Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740657cbd (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
-0x00007ff73eedbd44 (Unity) PersistentManager::GetStreamNameSpaceInternal
-0x00007ff73eedb285 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
-0x00007ff73eee089e (Unity) PersistentManager::ReadAndActivateObjectThreaded
-0x00007ff73eee0fb9 (Unity) PersistentManager::ReadObjectThreaded
-0x00007ff73eee0d6a (Unity) PersistentManager::ReadObject
-0x00007ff73e8352ed (Unity) UnityPropertySheet::AssignDefinedPropertiesTo
-0x00007ff73e886c6e (Unity) Material::BuildProperties
-0x00007ff73e884a4f (Unity) Material::AcquireSharedMaterialData
-0x00007ff73dfdb3cc (Unity) BaseRenderer::FlattenSharedMaterialData<0>
-0x00007ff73e4d2ce8 (Unity) PrepareMeshRenderNodes<0>
-0x00007ff73e06cd5a (Unity) ExtractSceneRenderNodeQueue
-0x00007ff73e0c79e4 (Unity) CullResults::GetOrCreateSharedRendererScene
-0x00007ff73e5af847 (Unity) CullScriptable
-0x00007ff73f010ca3 (Unity) ScriptableRenderContext_CUSTOM_Internal_Cull_Injected
-0x000001e23e433643 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull_Injected (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext&,intptr)
-0x000001e23e433593 (Mono JIT Code) UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
-0x000001e23e4334eb (Mono JIT Code) UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
-0x000001e23e43064b (Mono JIT Code) [UniversalRenderPipeline.cs:377] UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) 
-0x000001e23e42acdb (Mono JIT Code) [UniversalRenderPipeline.cs:301] UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) 
-0x000001e23e09734b (Mono JIT Code) [UniversalRenderPipeline.cs:257] UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) 
-0x000001e23e096819 (Mono JIT Code) UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
-0x000001e23de2d1cb (Mono JIT Code) UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-0x000001e23de2d390 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object_intptr_object_AtomicSafetyHandle (object,intptr,intptr,intptr)
-0x00007ffd0bb4e660 (mono-2.0-bdwgc) [mini-runtime.c:2827] mono_jit_runtime_invoke 
-0x00007ffd0bad2ae2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
-0x00007ffd0badbb3f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
-0x00007ff73ee4f434 (Unity) scripting_method_invoke
-0x00007ff73ee47935 (Unity) ScriptingInvocation::Invoke
-0x00007ff73e5958df (Unity) ScriptableRenderContext::ExtractAndExecuteRenderPipeline
-0x00007ff73e097916 (Unity) Camera::CustomRenderWithPipeline
-0x00007ff73e0adfe6 (Unity) Camera::StandaloneCustomRender
-0x00007ff73e0ae238 (Unity) Camera::StandaloneRender
-0x00007ff73e0a5356 (Unity) CameraScripting::Render
-0x00007ff73f02b284 (Unity) Camera_CUSTOM_Render
-0x000001e23de2cf00 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render (UnityEngine.Camera)
-0x000001e23de2c5d3 (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
-0x000001e240583f23 (Mono JIT Code) UnityEditor.GameObjectInspector:DoRenderPreview ()
-0x000001e23f41f1c3 (Mono JIT Code) UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-0x000001e2111ede1a (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-0x000001e2111edf28 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
-0x00007ffd0bb4e660 (mono-2.0-bdwgc) [mini-runtime.c:2827] mono_jit_runtime_invoke 
-0x00007ffd0bad2ae2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
-0x00007ffd0badbb3f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
-0x00007ff73ee4f434 (Unity) scripting_method_invoke
-0x00007ff73ee47935 (Unity) ScriptingInvocation::Invoke
-0x00007ff7405be060 (Unity) MonoCreateAssetPreview
-0x00007ff7405c261e (Unity) WriteAssetPreviewToFile
-0x00007ff7405c2d8c (Unity) WritePreviews
-0x00007ff7405bca8e (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(217e9e8f3ebfe3148acf7ddfb65a9c82) Importer(-1,00000000000000000000000000000000), Assets/Realistic_Bed/Bed/Textures/bed1_bed_mat_Normal.png from editor
-Resuming Guid(217e9e8f3ebfe3148acf7ddfb65a9c82) Importer(-1,00000000000000000000000000000000) -> bb1395707784f6787352593423ab934d 
-Assertion failed on expression: 'state.state == kUpToDate'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
-UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:376)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:300)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:255)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.GameObjectInspector:DoRenderPreview ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 58]
-
-Assertion failed on expression: 'state.artifactID == result'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
-UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:376)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:300)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:255)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.GameObjectInspector:DoRenderPreview ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 59]
-
-Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740657cbd (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
-0x00007ff73eedbd44 (Unity) PersistentManager::GetStreamNameSpaceInternal
-0x00007ff73eedb285 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
-0x00007ff73eee089e (Unity) PersistentManager::ReadAndActivateObjectThreaded
-0x00007ff73eee0fb9 (Unity) PersistentManager::ReadObjectThreaded
-0x00007ff73eee0d6a (Unity) PersistentManager::ReadObject
-0x00007ff73e8352ed (Unity) UnityPropertySheet::AssignDefinedPropertiesTo
-0x00007ff73e886c6e (Unity) Material::BuildProperties
-0x00007ff73e884a4f (Unity) Material::AcquireSharedMaterialData
-0x00007ff73dfdb3cc (Unity) BaseRenderer::FlattenSharedMaterialData<0>
-0x00007ff73e4d2ce8 (Unity) PrepareMeshRenderNodes<0>
-0x00007ff73e06cd5a (Unity) ExtractSceneRenderNodeQueue
-0x00007ff73e0c79e4 (Unity) CullResults::GetOrCreateSharedRendererScene
-0x00007ff73e5af847 (Unity) CullScriptable
-0x00007ff73f010ca3 (Unity) ScriptableRenderContext_CUSTOM_Internal_Cull_Injected
-0x000001e23e433643 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull_Injected (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext&,intptr)
-0x000001e23e433593 (Mono JIT Code) UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
-0x000001e23e4334eb (Mono JIT Code) UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
-0x000001e23e43064b (Mono JIT Code) [UniversalRenderPipeline.cs:377] UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) 
-0x000001e23e42acdb (Mono JIT Code) [UniversalRenderPipeline.cs:301] UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) 
-0x000001e23e09734b (Mono JIT Code) [UniversalRenderPipeline.cs:257] UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) 
-0x000001e23e096819 (Mono JIT Code) UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
-0x000001e23de2d1cb (Mono JIT Code) UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-0x000001e23de2d390 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object_intptr_object_AtomicSafetyHandle (object,intptr,intptr,intptr)
-0x00007ffd0bb4e660 (mono-2.0-bdwgc) [mini-runtime.c:2827] mono_jit_runtime_invoke 
-0x00007ffd0bad2ae2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
-0x00007ffd0badbb3f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
-0x00007ff73ee4f434 (Unity) scripting_method_invoke
-0x00007ff73ee47935 (Unity) ScriptingInvocation::Invoke
-0x00007ff73e5958df (Unity) ScriptableRenderContext::ExtractAndExecuteRenderPipeline
-0x00007ff73e097916 (Unity) Camera::CustomRenderWithPipeline
-0x00007ff73e0adfe6 (Unity) Camera::StandaloneCustomRender
-0x00007ff73e0ae238 (Unity) Camera::StandaloneRender
-0x00007ff73e0a5356 (Unity) CameraScripting::Render
-0x00007ff73f02b284 (Unity) Camera_CUSTOM_Render
-0x000001e23de2cf00 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render (UnityEngine.Camera)
-0x000001e23de2c5d3 (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
-0x000001e240583f23 (Mono JIT Code) UnityEditor.GameObjectInspector:DoRenderPreview ()
-0x000001e23f41f1c3 (Mono JIT Code) UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-0x000001e2111ede1a (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-0x000001e2111edf28 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
-0x00007ffd0bb4e660 (mono-2.0-bdwgc) [mini-runtime.c:2827] mono_jit_runtime_invoke 
-0x00007ffd0bad2ae2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
-0x00007ffd0badbb3f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
-0x00007ff73ee4f434 (Unity) scripting_method_invoke
-0x00007ff73ee47935 (Unity) ScriptingInvocation::Invoke
-0x00007ff7405be060 (Unity) MonoCreateAssetPreview
-0x00007ff7405c261e (Unity) WriteAssetPreviewToFile
-0x00007ff7405c2d8c (Unity) WritePreviews
-0x00007ff7405bca8e (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(477ceaa115adf0142a9adfd21edee54c) Importer(-1,00000000000000000000000000000000), Assets/Realistic_Bed/Bed/Textures/Ambient Occlusion Map from Mesh bed_mat.png from editor
-Resuming Guid(477ceaa115adf0142a9adfd21edee54c) Importer(-1,00000000000000000000000000000000) -> b934278ea9df58370e2ed6ca0a1de94e 
-Assertion failed on expression: 'state.state == kUpToDate'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
-UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:376)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:300)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:255)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.GameObjectInspector:DoRenderPreview ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 58]
-
-Assertion failed on expression: 'state.artifactID == result'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
-UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:376)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:300)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:255)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.GameObjectInspector:DoRenderPreview ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 59]
-
-Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740657cbd (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
-0x00007ff73eedbd44 (Unity) PersistentManager::GetStreamNameSpaceInternal
-0x00007ff73eedb285 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
-0x00007ff73eee089e (Unity) PersistentManager::ReadAndActivateObjectThreaded
-0x00007ff73eee0fb9 (Unity) PersistentManager::ReadObjectThreaded
-0x00007ff73eee0d6a (Unity) PersistentManager::ReadObject
-0x00007ff73e8352ed (Unity) UnityPropertySheet::AssignDefinedPropertiesTo
-0x00007ff73e886c6e (Unity) Material::BuildProperties
-0x00007ff73e884a4f (Unity) Material::AcquireSharedMaterialData
-0x00007ff73dfdb3cc (Unity) BaseRenderer::FlattenSharedMaterialData<0>
-0x00007ff73e4d2ce8 (Unity) PrepareMeshRenderNodes<0>
-0x00007ff73e06cd5a (Unity) ExtractSceneRenderNodeQueue
-0x00007ff73e0c79e4 (Unity) CullResults::GetOrCreateSharedRendererScene
-0x00007ff73e5af847 (Unity) CullScriptable
-0x00007ff73f010ca3 (Unity) ScriptableRenderContext_CUSTOM_Internal_Cull_Injected
-0x000001e23e433643 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull_Injected (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext&,intptr)
-0x000001e23e433593 (Mono JIT Code) UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
-0x000001e23e4334eb (Mono JIT Code) UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
-0x000001e23e43064b (Mono JIT Code) [UniversalRenderPipeline.cs:377] UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) 
-0x000001e23e42acdb (Mono JIT Code) [UniversalRenderPipeline.cs:301] UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) 
-0x000001e23e09734b (Mono JIT Code) [UniversalRenderPipeline.cs:257] UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) 
-0x000001e23e096819 (Mono JIT Code) UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
-0x000001e23de2d1cb (Mono JIT Code) UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-0x000001e23de2d390 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object_intptr_object_AtomicSafetyHandle (object,intptr,intptr,intptr)
-0x00007ffd0bb4e660 (mono-2.0-bdwgc) [mini-runtime.c:2827] mono_jit_runtime_invoke 
-0x00007ffd0bad2ae2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
-0x00007ffd0badbb3f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
-0x00007ff73ee4f434 (Unity) scripting_method_invoke
-0x00007ff73ee47935 (Unity) ScriptingInvocation::Invoke
-0x00007ff73e5958df (Unity) ScriptableRenderContext::ExtractAndExecuteRenderPipeline
-0x00007ff73e097916 (Unity) Camera::CustomRenderWithPipeline
-0x00007ff73e0adfe6 (Unity) Camera::StandaloneCustomRender
-0x00007ff73e0ae238 (Unity) Camera::StandaloneRender
-0x00007ff73e0a5356 (Unity) CameraScripting::Render
-0x00007ff73f02b284 (Unity) Camera_CUSTOM_Render
-0x000001e23de2cf00 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render (UnityEngine.Camera)
-0x000001e23de2c5d3 (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
-0x000001e240583f23 (Mono JIT Code) UnityEditor.GameObjectInspector:DoRenderPreview ()
-0x000001e23f41f1c3 (Mono JIT Code) UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-0x000001e2111ede1a (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-0x000001e2111edf28 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
-0x00007ffd0bb4e660 (mono-2.0-bdwgc) [mini-runtime.c:2827] mono_jit_runtime_invoke 
-0x00007ffd0bad2ae2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
-0x00007ffd0badbb3f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
-0x00007ff73ee4f434 (Unity) scripting_method_invoke
-0x00007ff73ee47935 (Unity) ScriptingInvocation::Invoke
-0x00007ff7405be060 (Unity) MonoCreateAssetPreview
-0x00007ff7405c261e (Unity) WriteAssetPreviewToFile
-0x00007ff7405c2d8c (Unity) WritePreviews
-0x00007ff7405bca8e (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(5563cb32cea63b54384ed7a94f9f44a0) Importer(-1,00000000000000000000000000000000), Assets/Realistic_Bed/Bed/Textures/bed1_bed_mat_MetallicSmoothness.png from editor
-Resuming Guid(5563cb32cea63b54384ed7a94f9f44a0) Importer(-1,00000000000000000000000000000000) -> 1a9a8eb03fce5c1ead1a19150128e106 
-Assertion failed on expression: 'state.state == kUpToDate'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
-UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:376)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:300)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:255)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.GameObjectInspector:DoRenderPreview ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 58]
-
-Assertion failed on expression: 'state.artifactID == result'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
-UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:376)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:300)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) (at E:/Unity/Project/My project (1)/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs:255)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.GameObjectInspector:DoRenderPreview ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 59]
-
- -> (artifact id: 'b2b03be926806585d74446ef733c8109') in 0.580450 seconds 
-  Import took 0.610783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.138483 seconds.
-  path: Assets/Skybox/Cubemaps/daytime.hdr
-  artifactKey: Guid(1cde0e200e792cb4491204276a656490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skybox/Cubemaps/daytime.hdr using Guid(1cde0e200e792cb4491204276a656490) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff7406b1690 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(1cde0e200e792cb4491204276a656490) Importer(-1,00000000000000000000000000000000), Assets/Skybox/Cubemaps/daytime.hdr from editor
-Resuming Guid(1cde0e200e792cb4491204276a656490) Importer(-1,00000000000000000000000000000000) -> e68682e8f0e0f624b9ae70d93ffed299 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
-Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740688a91 (Unity) ProduceArtifactV2
-0x00007ff7405d77be (Unity) AssetDatabase::ProduceArtifact
-0x00007ff7405bc968 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(1cde0e200e792cb4491204276a656490) Importer(-1,00000000000000000000000000000000), Assets/Skybox/Cubemaps/daytime.hdr from editor
-Resuming Guid(1cde0e200e792cb4491204276a656490) Importer(-1,00000000000000000000000000000000) -> e68682e8f0e0f624b9ae70d93ffed299 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: '6861620df004328bf9dac66fa88dc5b6') in 0.339265 seconds 
-  Import took 0.358287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Skybox/Cubemaps/sunset.hdr
-  artifactKey: Guid(656a59a5ff93c46498416d97e5c16b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skybox/Cubemaps/sunset.hdr using Guid(656a59a5ff93c46498416d97e5c16b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff7406b1690 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(656a59a5ff93c46498416d97e5c16b66) Importer(-1,00000000000000000000000000000000), Assets/Skybox/Cubemaps/sunset.hdr from editor
-Resuming Guid(656a59a5ff93c46498416d97e5c16b66) Importer(-1,00000000000000000000000000000000) -> be3b25447e3b01b05a3b548b1f7e121a 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
-Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740688a91 (Unity) ProduceArtifactV2
-0x00007ff7405d77be (Unity) AssetDatabase::ProduceArtifact
-0x00007ff7405bc968 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(656a59a5ff93c46498416d97e5c16b66) Importer(-1,00000000000000000000000000000000), Assets/Skybox/Cubemaps/sunset.hdr from editor
-Resuming Guid(656a59a5ff93c46498416d97e5c16b66) Importer(-1,00000000000000000000000000000000) -> be3b25447e3b01b05a3b548b1f7e121a 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: '8a6bda920b87f6fb23b25657ceaba6b7') in 0.008810 seconds 
-  Import took 0.014309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.340855 seconds.
-  path: Assets/UI Toolkit/PanelSettings.asset
-  artifactKey: Guid(678131e5d896afe489065a5f70fbf95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI Toolkit/PanelSettings.asset using Guid(678131e5d896afe489065a5f70fbf95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f046c16bd1bb7d7d09daad57d3ca6ddc') in 0.010107 seconds 
-  Import took 0.015941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11393.547125 seconds.
-  path: Assets/camera_button.uxml
-  artifactKey: Guid(690edf016ad6d6b47a5856ea38957bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/camera_button.uxml using Guid(690edf016ad6d6b47a5856ea38957bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff7406b1690 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000), Assets/camera_button.uxml from editor
-Resuming Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000) -> e399e1dbfc48e7c1a4df1efd7ed35615 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
-Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740688a91 (Unity) ProduceArtifactV2
-0x00007ff7405d77be (Unity) AssetDatabase::ProduceArtifact
-0x00007ff7405bc968 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000), Assets/camera_button.uxml from editor
-Resuming Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000) -> e399e1dbfc48e7c1a4df1efd7ed35615 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: '2e7960bed4327c30a7bd1b7d0c4c7d99') in 0.031556 seconds 
-  Import took 0.116618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
+  Time since last request: 0.000443 seconds.
   path: Assets/New Material.mat
   artifactKey: Guid(ebb018efbd5cc0449b0124059edafbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(ebb018efbd5cc0449b0124059edafbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8dc2de9e7ac599fc04eeaf070669ce') in 0.135680 seconds 
-  Import took 0.144891 seconds .
+Start importing Assets/New Material.mat using Guid(ebb018efbd5cc0449b0124059edafbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25101c11a61e5dab6b1bef04f719a9c0') in 0.253140 seconds 
+  Import took 0.258581 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 313.363878 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Textures/Surface/AdlerWood_01_A.png
-  artifactKey: Guid(3896f4ca02b49124dbe88348af6cd90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Textures/Surface/AdlerWood_01_A.png using Guid(3896f4ca02b49124dbe88348af6cd90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff7406b1690 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
+  Time since last request: 3714.850762 seconds.
+  path: Assets/UI Toolkit
+  artifactKey: Guid(84500aba4513c50428ac265cbbb2ca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit using Guid(84500aba4513c50428ac265cbbb2ca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3cc1a2de7ec4c14b7a41bc907d979f') in 0.010750 seconds 
+  Import took 0.100481 seconds .
 
-Requesting import of Guid(3896f4ca02b49124dbe88348af6cd90b) Importer(-1,00000000000000000000000000000000), Assets/Brick Project Studio/Apartment Kit/Textures/Surface/AdlerWood_01_A.png from editor
-Resuming Guid(3896f4ca02b49124dbe88348af6cd90b) Importer(-1,00000000000000000000000000000000) -> 100f9e923cd2ae00e26fdaf52a566852 
+========================================================================
+Received Import Request.
+  Time since last request: 16.024662 seconds.
+  path: Assets/UI Toolkit/NewUXMLTemplate.uxml
+  artifactKey: Guid(a081756242bc9de4aa0dc7d72f0ebf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/NewUXMLTemplate.uxml using Guid(a081756242bc9de4aa0dc7d72f0ebf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff6867266b2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6866f1cd2 (Unity) ResolveArtifactV2
+0x00007ff686711690 (Unity) ImportToObjects
+0x00007ff686710a98 (Unity) ImportAsset
+0x00007ff6866727f8 (Unity) AssetImportWorker::Import
+0x00007ff6866c5b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff68676a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff68676c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff68676fb4e (Unity) asio::io_service::run
+0x00007ff6866f29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6866f2a40 (Unity) RunAssetImporterV2
+0x00007ff685bb6616 (Unity) Application::InitializeProject
+0x00007ff686561b22 (Unity) WinMain
+0x00007ff6883b92b6 (Unity) __scrt_common_main_seh
+0x00007ff8279e7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8285026a1 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(a081756242bc9de4aa0dc7d72f0ebf17) Importer(-1,00000000000000000000000000000000), Assets/UI Toolkit/NewUXMLTemplate.uxml from editor
+Resuming Guid(a081756242bc9de4aa0dc7d72f0ebf17) Importer(-1,00000000000000000000000000000000) -> 0f884a897362ac1bf42a5182bf8751fe 
 Assertion failed on expression: 'state.state == kUpToDate'
 Assertion failed on expression: 'state.artifactID == result'
 Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740688a91 (Unity) ProduceArtifactV2
-0x00007ff7405d77be (Unity) AssetDatabase::ProduceArtifact
-0x00007ff7405bc968 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
+0x00007ff6867266b2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6866f1cd2 (Unity) ResolveArtifactV2
+0x00007ff6866e8a91 (Unity) ProduceArtifactV2
+0x00007ff6866377be (Unity) AssetDatabase::ProduceArtifact
+0x00007ff68661c968 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff686711a59 (Unity) ImportToObjects
+0x00007ff686710a98 (Unity) ImportAsset
+0x00007ff6866727f8 (Unity) AssetImportWorker::Import
+0x00007ff6866c5b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff68676a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff68676c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff68676fb4e (Unity) asio::io_service::run
+0x00007ff6866f29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6866f2a40 (Unity) RunAssetImporterV2
+0x00007ff685bb6616 (Unity) Application::InitializeProject
+0x00007ff686561b22 (Unity) WinMain
+0x00007ff6883b92b6 (Unity) __scrt_common_main_seh
+0x00007ff8279e7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8285026a1 (ntdll) RtlUserThreadStart
 
-Requesting import of Guid(3896f4ca02b49124dbe88348af6cd90b) Importer(-1,00000000000000000000000000000000), Assets/Brick Project Studio/Apartment Kit/Textures/Surface/AdlerWood_01_A.png from editor
-Resuming Guid(3896f4ca02b49124dbe88348af6cd90b) Importer(-1,00000000000000000000000000000000) -> 100f9e923cd2ae00e26fdaf52a566852 
+Requesting import of Guid(a081756242bc9de4aa0dc7d72f0ebf17) Importer(-1,00000000000000000000000000000000), Assets/UI Toolkit/NewUXMLTemplate.uxml from editor
+Resuming Guid(a081756242bc9de4aa0dc7d72f0ebf17) Importer(-1,00000000000000000000000000000000) -> 0f884a897362ac1bf42a5182bf8751fe 
 Assertion failed on expression: 'state.state == kUpToDate'
 Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: 'f248ad6fee8a6f595e60a8050198390a') in 0.025035 seconds 
-  Import took 0.049561 seconds .
+ -> (artifact id: 'ee9cd65e61b0a39ae6dfa4aea5b9cd23') in 0.026484 seconds 
+  Import took 0.032525 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000564 seconds.
-  path: Assets/Realistic_Bed/Bed/Textures/Ambient Occlusion Map from Mesh bed_mat.png
-  artifactKey: Guid(477ceaa115adf0142a9adfd21edee54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Realistic_Bed/Bed/Textures/Ambient Occlusion Map from Mesh bed_mat.png using Guid(477ceaa115adf0142a9adfd21edee54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff7406b1690 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
+  Time since last request: 3.805492 seconds.
+  path: Assets/UI Toolkit/UnityThemes
+  artifactKey: Guid(5c4fd10cf1b86f14ba95cd06cd41a091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UnityThemes using Guid(5c4fd10cf1b86f14ba95cd06cd41a091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e47b46dbae6d652d63b2e3f0333b3b') in 0.007919 seconds 
+  Import took 0.018490 seconds .
 
-Requesting import of Guid(477ceaa115adf0142a9adfd21edee54c) Importer(-1,00000000000000000000000000000000), Assets/Realistic_Bed/Bed/Textures/Ambient Occlusion Map from Mesh bed_mat.png from editor
-Resuming Guid(477ceaa115adf0142a9adfd21edee54c) Importer(-1,00000000000000000000000000000000) -> b934278ea9df58370e2ed6ca0a1de94e 
+========================================================================
+Received Import Request.
+  Time since last request: 11.304160 seconds.
+  path: Assets/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa9b3dd9f62dc012d0e81b7cffdedc2') in 11.588838 seconds 
+  Import took 11.598082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.244631 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e032b039bcbd1476593e9ea1649b903') in 0.065813 seconds 
+  Import took 0.080274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002566 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.010626 seconds 
+  Import took 0.022579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6873b356855449b052d88fb52d94f6af') in 0.028164 seconds 
+  Import took 0.038612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/camera_button.uxml
+  artifactKey: Guid(690edf016ad6d6b47a5856ea38957bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/camera_button.uxml using Guid(690edf016ad6d6b47a5856ea38957bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff6867266b2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6866f1cd2 (Unity) ResolveArtifactV2
+0x00007ff686711690 (Unity) ImportToObjects
+0x00007ff686710a98 (Unity) ImportAsset
+0x00007ff6866727f8 (Unity) AssetImportWorker::Import
+0x00007ff6866c5b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff68676a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff68676c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff68676fb4e (Unity) asio::io_service::run
+0x00007ff6866f29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6866f2a40 (Unity) RunAssetImporterV2
+0x00007ff685bb6616 (Unity) Application::InitializeProject
+0x00007ff686561b22 (Unity) WinMain
+0x00007ff6883b92b6 (Unity) __scrt_common_main_seh
+0x00007ff8279e7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8285026a1 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000), Assets/camera_button.uxml from editor
+Resuming Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000) -> e399e1dbfc48e7c1a4df1efd7ed35615 
 Assertion failed on expression: 'state.state == kUpToDate'
 Assertion failed on expression: 'state.artifactID == result'
 Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740688a91 (Unity) ProduceArtifactV2
-0x00007ff7405d77be (Unity) AssetDatabase::ProduceArtifact
-0x00007ff7405bc968 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
+0x00007ff6867266b2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6866f1cd2 (Unity) ResolveArtifactV2
+0x00007ff6866e8a91 (Unity) ProduceArtifactV2
+0x00007ff6866377be (Unity) AssetDatabase::ProduceArtifact
+0x00007ff68661c968 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff686711a59 (Unity) ImportToObjects
+0x00007ff686710a98 (Unity) ImportAsset
+0x00007ff6866727f8 (Unity) AssetImportWorker::Import
+0x00007ff6866c5b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff68676a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff68676c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff68676fb4e (Unity) asio::io_service::run
+0x00007ff6866f29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6866f2a40 (Unity) RunAssetImporterV2
+0x00007ff685bb6616 (Unity) Application::InitializeProject
+0x00007ff686561b22 (Unity) WinMain
+0x00007ff6883b92b6 (Unity) __scrt_common_main_seh
+0x00007ff8279e7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8285026a1 (ntdll) RtlUserThreadStart
 
-Requesting import of Guid(477ceaa115adf0142a9adfd21edee54c) Importer(-1,00000000000000000000000000000000), Assets/Realistic_Bed/Bed/Textures/Ambient Occlusion Map from Mesh bed_mat.png from editor
-Resuming Guid(477ceaa115adf0142a9adfd21edee54c) Importer(-1,00000000000000000000000000000000) -> b934278ea9df58370e2ed6ca0a1de94e 
+Requesting import of Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000), Assets/camera_button.uxml from editor
+Resuming Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000) -> e399e1dbfc48e7c1a4df1efd7ed35615 
 Assertion failed on expression: 'state.state == kUpToDate'
 Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: '5c64b651d9b0446318a73cd4a527d02c') in 0.044468 seconds 
-  Import took 0.062222 seconds .
+ -> (artifact id: '2e7960bed4327c30a7bd1b7d0c4c7d99') in 0.009161 seconds 
+  Import took 0.017853 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000581 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Textures/Surface/AdlerWood_01_N.png
-  artifactKey: Guid(84cd5ef0583ef6449bfe7ad09c001723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Textures/Surface/AdlerWood_01_N.png using Guid(84cd5ef0583ef6449bfe7ad09c001723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff7406b1690 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
+  Time since last request: 0.000293 seconds.
+  path: Assets/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cdbeeea9b42e2bf86e8c80c7608cd0') in 0.017650 seconds 
+  Import took 0.028457 seconds .
 
-Requesting import of Guid(84cd5ef0583ef6449bfe7ad09c001723) Importer(-1,00000000000000000000000000000000), Assets/Brick Project Studio/Apartment Kit/Textures/Surface/AdlerWood_01_N.png from editor
-Resuming Guid(84cd5ef0583ef6449bfe7ad09c001723) Importer(-1,00000000000000000000000000000000) -> 3c0d7ad702979bab1d09c452a54859aa 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Settings/UniversalRP-HighQuality.asset
+  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830a19abacffd2982fe520f0b2e7493f') in 0.011636 seconds 
+  Import took 0.019085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.907011 seconds.
+  path: Assets/camera_button.uxml
+  artifactKey: Guid(690edf016ad6d6b47a5856ea38957bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/camera_button.uxml using Guid(690edf016ad6d6b47a5856ea38957bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff6867266b2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6866f1cd2 (Unity) ResolveArtifactV2
+0x00007ff686711690 (Unity) ImportToObjects
+0x00007ff686710a98 (Unity) ImportAsset
+0x00007ff6866727f8 (Unity) AssetImportWorker::Import
+0x00007ff6866c5b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff68676a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff68676c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff68676fb4e (Unity) asio::io_service::run
+0x00007ff6866f29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6866f2a40 (Unity) RunAssetImporterV2
+0x00007ff685bb6616 (Unity) Application::InitializeProject
+0x00007ff686561b22 (Unity) WinMain
+0x00007ff6883b92b6 (Unity) __scrt_common_main_seh
+0x00007ff8279e7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8285026a1 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000), Assets/camera_button.uxml from editor
+Resuming Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000) -> e399e1dbfc48e7c1a4df1efd7ed35615 
 Assertion failed on expression: 'state.state == kUpToDate'
 Assertion failed on expression: 'state.artifactID == result'
 Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740688a91 (Unity) ProduceArtifactV2
-0x00007ff7405d77be (Unity) AssetDatabase::ProduceArtifact
-0x00007ff7405bc968 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
+0x00007ff6867266b2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6866f1cd2 (Unity) ResolveArtifactV2
+0x00007ff6866e8a91 (Unity) ProduceArtifactV2
+0x00007ff6866377be (Unity) AssetDatabase::ProduceArtifact
+0x00007ff68661c968 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff686711a59 (Unity) ImportToObjects
+0x00007ff686710a98 (Unity) ImportAsset
+0x00007ff6866727f8 (Unity) AssetImportWorker::Import
+0x00007ff6866c5b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff68676a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff68676c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff68676fb4e (Unity) asio::io_service::run
+0x00007ff6866f29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6866f2a40 (Unity) RunAssetImporterV2
+0x00007ff685bb6616 (Unity) Application::InitializeProject
+0x00007ff686561b22 (Unity) WinMain
+0x00007ff6883b92b6 (Unity) __scrt_common_main_seh
+0x00007ff8279e7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8285026a1 (ntdll) RtlUserThreadStart
 
-Requesting import of Guid(84cd5ef0583ef6449bfe7ad09c001723) Importer(-1,00000000000000000000000000000000), Assets/Brick Project Studio/Apartment Kit/Textures/Surface/AdlerWood_01_N.png from editor
-Resuming Guid(84cd5ef0583ef6449bfe7ad09c001723) Importer(-1,00000000000000000000000000000000) -> 3c0d7ad702979bab1d09c452a54859aa 
+Requesting import of Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000), Assets/camera_button.uxml from editor
+Resuming Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000) -> e399e1dbfc48e7c1a4df1efd7ed35615 
 Assertion failed on expression: 'state.state == kUpToDate'
 Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: '73ddc551aad1274e62c721b7f54be961') in 0.030180 seconds 
-  Import took 0.068605 seconds .
+ -> (artifact id: '2e7960bed4327c30a7bd1b7d0c4c7d99') in 0.007261 seconds 
+  Import took 0.016915 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000587 seconds.
-  path: Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss
-  artifactKey: Guid(7b7bc4116671ec1479d57e50ad7ec235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss using Guid(7b7bc4116671ec1479d57e50ad7ec235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4e7f019aa9c45bcb371bea08a4c551') in 0.187216 seconds 
-  Import took 0.206417 seconds .
+  Time since last request: 0.000499 seconds.
+  path: Assets/light_switch.uxml
+  artifactKey: Guid(e106c789202e39f4d8fb37650f5dd795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/light_switch.uxml using Guid(e106c789202e39f4d8fb37650f5dd795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff6867266b2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6866f1cd2 (Unity) ResolveArtifactV2
+0x00007ff686711690 (Unity) ImportToObjects
+0x00007ff686710a98 (Unity) ImportAsset
+0x00007ff6866727f8 (Unity) AssetImportWorker::Import
+0x00007ff6866c5b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff68676a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff68676c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff68676fb4e (Unity) asio::io_service::run
+0x00007ff6866f29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6866f2a40 (Unity) RunAssetImporterV2
+0x00007ff685bb6616 (Unity) Application::InitializeProject
+0x00007ff686561b22 (Unity) WinMain
+0x00007ff6883b92b6 (Unity) __scrt_common_main_seh
+0x00007ff8279e7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8285026a1 (ntdll) RtlUserThreadStart
 
-========================================================================
-Received Import Request.
-  Time since last request: 10826.828219 seconds.
-  path: Assets/Realistic_Bed/Bed
-  artifactKey: Guid(481127a443e13da45b510e3f1112e52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Realistic_Bed/Bed using Guid(481127a443e13da45b510e3f1112e52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdbe475541ac99e147caca0894bb18e') in 0.010231 seconds 
-  Import took 0.094176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.273183 seconds.
-  path: Assets/Furniture_ges1/bed1/bed1.jpg
-  artifactKey: Guid(190c768172dbeaf4c8a48b5e1e219039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture_ges1/bed1/bed1.jpg using Guid(190c768172dbeaf4c8a48b5e1e219039) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff7406b1690 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(190c768172dbeaf4c8a48b5e1e219039) Importer(-1,00000000000000000000000000000000), Assets/Furniture_ges1/bed1/bed1.jpg from editor
-Resuming Guid(190c768172dbeaf4c8a48b5e1e219039) Importer(-1,00000000000000000000000000000000) -> 1b804bc145af2a7736e3212878d02dc2 
+Requesting import of Guid(e106c789202e39f4d8fb37650f5dd795) Importer(-1,00000000000000000000000000000000), Assets/light_switch.uxml from editor
+Resuming Guid(e106c789202e39f4d8fb37650f5dd795) Importer(-1,00000000000000000000000000000000) -> 306e0d92af803b36b3edce8f3b8891fa 
 Assertion failed on expression: 'state.state == kUpToDate'
 Assertion failed on expression: 'state.artifactID == result'
 Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740688a91 (Unity) ProduceArtifactV2
-0x00007ff7405d77be (Unity) AssetDatabase::ProduceArtifact
-0x00007ff7405bc968 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
+0x00007ff6867266b2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6866f1cd2 (Unity) ResolveArtifactV2
+0x00007ff6866e8a91 (Unity) ProduceArtifactV2
+0x00007ff6866377be (Unity) AssetDatabase::ProduceArtifact
+0x00007ff68661c968 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff686711a59 (Unity) ImportToObjects
+0x00007ff686710a98 (Unity) ImportAsset
+0x00007ff6866727f8 (Unity) AssetImportWorker::Import
+0x00007ff6866c5b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff68676a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff68676c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff68676fb4e (Unity) asio::io_service::run
+0x00007ff6866f29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6866f2a40 (Unity) RunAssetImporterV2
+0x00007ff685bb6616 (Unity) Application::InitializeProject
+0x00007ff686561b22 (Unity) WinMain
+0x00007ff6883b92b6 (Unity) __scrt_common_main_seh
+0x00007ff8279e7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8285026a1 (ntdll) RtlUserThreadStart
 
-Requesting import of Guid(190c768172dbeaf4c8a48b5e1e219039) Importer(-1,00000000000000000000000000000000), Assets/Furniture_ges1/bed1/bed1.jpg from editor
-Resuming Guid(190c768172dbeaf4c8a48b5e1e219039) Importer(-1,00000000000000000000000000000000) -> 1b804bc145af2a7736e3212878d02dc2 
+Requesting import of Guid(e106c789202e39f4d8fb37650f5dd795) Importer(-1,00000000000000000000000000000000), Assets/light_switch.uxml from editor
+Resuming Guid(e106c789202e39f4d8fb37650f5dd795) Importer(-1,00000000000000000000000000000000) -> 306e0d92af803b36b3edce8f3b8891fa 
 Assertion failed on expression: 'state.state == kUpToDate'
 Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: '30806bb5cd189431e65bfe4396180a13') in 0.038913 seconds 
-  Import took 0.068814 seconds .
+ -> (artifact id: '71fb7c6a34167c5fb672e041f62b8b59') in 0.012778 seconds 
+  Import took 0.020639 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Furniture_ges1/bed1/bed1normal.jpg
-  artifactKey: Guid(94dbafbb78811154088066320104b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture_ges1/bed1/bed1normal.jpg using Guid(94dbafbb78811154088066320104b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff7406b1690 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
+  Time since last request: 3201.063407 seconds.
+  path: Assets/camera_button.uxml
+  artifactKey: Guid(690edf016ad6d6b47a5856ea38957bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/camera_button.uxml using Guid(690edf016ad6d6b47a5856ea38957bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff6867266b2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6866f1cd2 (Unity) ResolveArtifactV2
+0x00007ff686711690 (Unity) ImportToObjects
+0x00007ff686710a98 (Unity) ImportAsset
+0x00007ff6866727f8 (Unity) AssetImportWorker::Import
+0x00007ff6866c5b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff68676a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff68676c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff68676fb4e (Unity) asio::io_service::run
+0x00007ff6866f29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6866f2a40 (Unity) RunAssetImporterV2
+0x00007ff685bb6616 (Unity) Application::InitializeProject
+0x00007ff686561b22 (Unity) WinMain
+0x00007ff6883b92b6 (Unity) __scrt_common_main_seh
+0x00007ff8279e7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8285026a1 (ntdll) RtlUserThreadStart
 
-Requesting import of Guid(94dbafbb78811154088066320104b30b) Importer(-1,00000000000000000000000000000000), Assets/Furniture_ges1/bed1/bed1normal.jpg from editor
-Resuming Guid(94dbafbb78811154088066320104b30b) Importer(-1,00000000000000000000000000000000) -> e33d6b33269b556443a8f5821444b744 
+Requesting import of Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000), Assets/camera_button.uxml from editor
+Resuming Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000) -> e399e1dbfc48e7c1a4df1efd7ed35615 
 Assertion failed on expression: 'state.state == kUpToDate'
 Assertion failed on expression: 'state.artifactID == result'
 Diagnostics callstack to track who triggered the sub-import:
-0x00007ff7406c66b2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff740691cd2 (Unity) ResolveArtifactV2
-0x00007ff740688a91 (Unity) ProduceArtifactV2
-0x00007ff7405d77be (Unity) AssetDatabase::ProduceArtifact
-0x00007ff7405bc968 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff7406b1a59 (Unity) ImportToObjects
-0x00007ff7406b0a98 (Unity) ImportAsset
-0x00007ff7406127f8 (Unity) AssetImportWorker::Import
-0x00007ff740665b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff74070a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff74070c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff74070fb4e (Unity) asio::io_service::run
-0x00007ff7406929eb (Unity) RunAssetImportWorkerClientV2
-0x00007ff740692a40 (Unity) RunAssetImporterV2
-0x00007ff73fb56616 (Unity) Application::InitializeProject
-0x00007ff740501b22 (Unity) WinMain
-0x00007ff7423592b6 (Unity) __scrt_common_main_seh
-0x00007ffde2ad7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffde31a26a1 (ntdll) RtlUserThreadStart
+0x00007ff6867266b2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6866f1cd2 (Unity) ResolveArtifactV2
+0x00007ff6866e8a91 (Unity) ProduceArtifactV2
+0x00007ff6866377be (Unity) AssetDatabase::ProduceArtifact
+0x00007ff68661c968 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff686711a59 (Unity) ImportToObjects
+0x00007ff686710a98 (Unity) ImportAsset
+0x00007ff6866727f8 (Unity) AssetImportWorker::Import
+0x00007ff6866c5b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff68676a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff68676c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff68676fb4e (Unity) asio::io_service::run
+0x00007ff6866f29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6866f2a40 (Unity) RunAssetImporterV2
+0x00007ff685bb6616 (Unity) Application::InitializeProject
+0x00007ff686561b22 (Unity) WinMain
+0x00007ff6883b92b6 (Unity) __scrt_common_main_seh
+0x00007ff8279e7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8285026a1 (ntdll) RtlUserThreadStart
 
-Requesting import of Guid(94dbafbb78811154088066320104b30b) Importer(-1,00000000000000000000000000000000), Assets/Furniture_ges1/bed1/bed1normal.jpg from editor
-Resuming Guid(94dbafbb78811154088066320104b30b) Importer(-1,00000000000000000000000000000000) -> e33d6b33269b556443a8f5821444b744 
+Requesting import of Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000), Assets/camera_button.uxml from editor
+Resuming Guid(690edf016ad6d6b47a5856ea38957bef) Importer(-1,00000000000000000000000000000000) -> e399e1dbfc48e7c1a4df1efd7ed35615 
 Assertion failed on expression: 'state.state == kUpToDate'
 Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: 'fba68d2d52bb263ab937e3ac53bbc4c4') in 0.017363 seconds 
-  Import took 0.034711 seconds .
+ -> (artifact id: '2e7960bed4327c30a7bd1b7d0c4c7d99') in 0.013961 seconds 
+  Import took 0.074614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(ebb018efbd5cc0449b0124059edafbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(ebb018efbd5cc0449b0124059edafbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d14c9c8aa6760f085b48bd8df742a06') in 0.097637 seconds 
+  Import took 0.138135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/light_switch.uxml
+  artifactKey: Guid(e106c789202e39f4d8fb37650f5dd795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/light_switch.uxml using Guid(e106c789202e39f4d8fb37650f5dd795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff6867266b2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6866f1cd2 (Unity) ResolveArtifactV2
+0x00007ff686711690 (Unity) ImportToObjects
+0x00007ff686710a98 (Unity) ImportAsset
+0x00007ff6866727f8 (Unity) AssetImportWorker::Import
+0x00007ff6866c5b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff68676a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff68676c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff68676fb4e (Unity) asio::io_service::run
+0x00007ff6866f29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6866f2a40 (Unity) RunAssetImporterV2
+0x00007ff685bb6616 (Unity) Application::InitializeProject
+0x00007ff686561b22 (Unity) WinMain
+0x00007ff6883b92b6 (Unity) __scrt_common_main_seh
+0x00007ff8279e7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8285026a1 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(e106c789202e39f4d8fb37650f5dd795) Importer(-1,00000000000000000000000000000000), Assets/light_switch.uxml from editor
+Resuming Guid(e106c789202e39f4d8fb37650f5dd795) Importer(-1,00000000000000000000000000000000) -> 306e0d92af803b36b3edce8f3b8891fa 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff6867266b2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff6866f1cd2 (Unity) ResolveArtifactV2
+0x00007ff6866e8a91 (Unity) ProduceArtifactV2
+0x00007ff6866377be (Unity) AssetDatabase::ProduceArtifact
+0x00007ff68661c968 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff686711a59 (Unity) ImportToObjects
+0x00007ff686710a98 (Unity) ImportAsset
+0x00007ff6866727f8 (Unity) AssetImportWorker::Import
+0x00007ff6866c5b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff68676a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff68676c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff68676fb4e (Unity) asio::io_service::run
+0x00007ff6866f29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6866f2a40 (Unity) RunAssetImporterV2
+0x00007ff685bb6616 (Unity) Application::InitializeProject
+0x00007ff686561b22 (Unity) WinMain
+0x00007ff6883b92b6 (Unity) __scrt_common_main_seh
+0x00007ff8279e7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8285026a1 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(e106c789202e39f4d8fb37650f5dd795) Importer(-1,00000000000000000000000000000000), Assets/light_switch.uxml from editor
+Resuming Guid(e106c789202e39f4d8fb37650f5dd795) Importer(-1,00000000000000000000000000000000) -> 306e0d92af803b36b3edce8f3b8891fa 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '71fb7c6a34167c5fb672e041f62b8b59') in 0.010491 seconds 
+  Import took 0.018688 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
