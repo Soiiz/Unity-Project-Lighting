@@ -88,7 +88,6 @@
     <Compile Include="Assets\Customizable_Furnture\Source\Scripts\PlayVideo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\light_switch.uxml" />
     <None Include="Assets\Customizable_Furnture\Readme\Readme.txt" />
     <None Include="Assets\camera_button.uxml" />
     <None Include="Assets\Brick Project Studio\Apartment Kit\Scenes\Message For You Please Read Me.txt" />

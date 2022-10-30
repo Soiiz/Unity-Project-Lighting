@@ -15,18 +15,18 @@
                 "m_VisualTreeAssetBackup": {
                     "instanceID": 0
                 },
-                "m_OpenendVisualTreeAssetOldPath": "Assets/camera_button.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/light_switch.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "690edf016ad6d6b47a5856ea38957bef",
+                    "guid": "e106c789202e39f4d8fb37650f5dd795",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
                     "instanceID": 0
                 },
                 "m_Settings": {
-                    "UxmlGuid": "690edf016ad6d6b47a5856ea38957bef",
-                    "UxmlPath": "Assets/camera_button.uxml",
+                    "UxmlGuid": "e106c789202e39f4d8fb37650f5dd795",
+                    "UxmlPath": "Assets/light_switch.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
                     "CanvasWidth": 350,
@@ -34,8 +34,8 @@
                     "MatchGameView": false,
                     "ZoomScale": 1.0,
                     "PanOffset": {
-                        "x": 481.0,
-                        "y": 250.0
+                        "x": 20.0,
+                        "y": 20.0
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,
